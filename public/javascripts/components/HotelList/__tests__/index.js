@@ -17,7 +17,7 @@ describe("HotelList", () => {
      wrapper = shallow(<HotelList hotels = {mockHotels}/>);
   })
 
-  it("should render a list of products as a unordered list", () => {
+  it("should render a list of products", () => {
     expect(wrapper.find('li').length).toEqual(mockHotels.length);
   });
 

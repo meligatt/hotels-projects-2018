@@ -7,8 +7,7 @@ const HotelList = ({ hotels }) => {
     {
       hotels.map((hotel) => {
         return (<li key={hotel.id}>
-          <div>{hotel.title}</div>
-          <div>{hotel.price}</div>
+          <div>Hotel: {hotel.title} - price: {hotel.price}</div>
         </li>)
       })
     }
