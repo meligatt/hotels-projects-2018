@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterBar should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FilterBar
+    onOptionChange={[MockFunction]}
+    optionSelected="desc"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "Sort by",
+        <select
+          onChange={[Function]}
+          value="desc"
+        >
+          <option
+            value="desc"
+          >
+             Price (high-low)
+          </option>
+          <option
+            value="asc"
+          >
+             Price (low-high)
+          </option>
+        </select>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      "Sort by",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <option
+              value="desc"
+            >
+               Price (high-low)
+            </option>,
+            <option
+              value="asc"
+            >
+               Price (low-high)
+            </option>,
+          ],
+          "onChange": [Function],
+          "value": "desc",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " Price (high-low)",
+              "value": "desc",
+            },
+            "ref": null,
+            "rendered": " Price (high-low)",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " Price (low-high)",
+              "value": "asc",
+            },
+            "ref": null,
+            "rendered": " Price (low-high)",
+            "type": "option",
+          },
+        ],
+        "type": "select",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "Sort by",
+          <select
+            onChange={[Function]}
+            value="desc"
+          >
+            <option
+              value="desc"
+            >
+               Price (high-low)
+            </option>
+            <option
+              value="asc"
+            >
+               Price (low-high)
+            </option>
+          </select>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        "Sort by",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <option
+                value="desc"
+              >
+                 Price (high-low)
+              </option>,
+              <option
+                value="asc"
+              >
+                 Price (low-high)
+              </option>,
+            ],
+            "onChange": [Function],
+            "value": "desc",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Price (high-low)",
+                "value": "desc",
+              },
+              "ref": null,
+              "rendered": " Price (high-low)",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Price (low-high)",
+                "value": "asc",
+              },
+              "ref": null,
+              "rendered": " Price (low-high)",
+              "type": "option",
+            },
+          ],
+          "type": "select",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
