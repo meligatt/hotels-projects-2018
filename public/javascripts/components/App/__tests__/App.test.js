@@ -8,7 +8,6 @@ import { shallow, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import { sortDescendent, makeRequest } from '../../../helpers';
 
-//TODO: Add to readme: https://github.com/facebook/jest/issues/5993
 // Mocking the imported module:
 jest.mock('../../../helpers', () => (
   { makeRequest: jest.fn(),
